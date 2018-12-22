@@ -1,10 +1,12 @@
-const PriorityQueue = require('./ds/queues/priority-queue');
+const Stack = require('./ds/stacks/stack');
 
-const priorityQueue = new PriorityQueue;
+const stack = new Stack;
 
-priorityQueue.enqueue("Add Login");
-priorityQueue.enqueue("Add Signup");
-priorityQueue.enqueue("Add Forgot Password");
-priorityQueue.enqueue("Fix Sitemap", true);
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.push(4);
+stack.pop();
+stack.push(5);
 
-priorityQueue.print();
+stack.print();
