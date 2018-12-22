@@ -1,10 +1,10 @@
-const Queue = require('./ds/queues/queue');
+const PriorityQueue = require('./ds/queues/priority-queue');
 
-const queue = new Queue;
+const priorityQueue = new PriorityQueue;
 
-queue.enqueue(1);
-queue.enqueue(2);
-queue.enqueue(3);
-queue.enqueue(4);
+priorityQueue.enqueue("Add Login");
+priorityQueue.enqueue("Add Signup");
+priorityQueue.enqueue("Add Forgot Password");
+priorityQueue.enqueue("Fix Sitemap", true);
 
-queue.print();
+priorityQueue.print();
