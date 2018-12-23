@@ -1,12 +1,12 @@
-const Stack = require('./ds/stacks/stack');
+const LinkedList = require('./ds/linked-list');
 
-const stack = new Stack;
+const linkedList = new LinkedList;
 
-stack.push(1);
-stack.push(2);
-stack.push(3);
-stack.push(4);
-stack.pop();
-stack.push(5);
+linkedList.push(1);
+linkedList.push(2);
+linkedList.push(3);
+linkedList.push(4);
+linkedList.push(5);
 
-stack.print();
+// console.log(linkedList.get(4));
+linkedList.print();
