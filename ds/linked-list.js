@@ -82,7 +82,7 @@ class LinkedList {
 
   delete(index) {
     if (index < 0 || index > this.length - 1) {
-      return node;
+      return null;
     }
 
     if (index === 0) {
