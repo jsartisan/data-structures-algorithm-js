@@ -1,12 +1,3 @@
-const LinkedList = require('./ds/linked-list');
+const { bubbleSort2 } = require("./algorithms/sorting/bubble-sort");
 
-const linkedList = new LinkedList;
-
-linkedList.push(1);
-linkedList.push(2);
-linkedList.push(3);
-linkedList.push(4);
-linkedList.push(5);
-
-// console.log(linkedList.get(4));
-linkedList.print();
+console.log(bubbleSort2([5, 2, 3, 1, 6]));
