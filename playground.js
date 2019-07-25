@@ -1,3 +1,3 @@
-const { bubbleSort2 } = require("./algorithms/1-bubble-sort");
+const isAnagram = require("./algorithms/2-is-anagram");
 
-console.log(bubbleSort2([5, 2, 3, 1, 6]));
+console.log(isAnagram("earth", "heart"));

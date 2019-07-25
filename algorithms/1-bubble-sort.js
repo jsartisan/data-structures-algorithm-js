@@ -22,6 +22,7 @@ const bubbleSort = arr => {
 
 /**
  * bubble sort algorithm 2 - better approach
+ * exits out when the array becomes sorted
  *
  * @param number[] arr
  */
